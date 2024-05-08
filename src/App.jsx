@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>v.1 ...... 16:33.........08/05/2024</h1>
+      <h1>v.2 ...... 17:15.........08/05/2024</h1>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
