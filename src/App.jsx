@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+      <h1>v.1 ...... 16:33.........08/05/2024</h1>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
@@ -22,7 +23,8 @@ function App() {
           count is {count}
         </button>
         <button onClick={() => {console.log("inside button click");
-                               axios.get('/xxmessage').then((response) => {    // "/api"     
+                               //axios.get('http://localhost:5173/xxmessage').then((response) => {    // "/api"     
+                               axios.get('/apiproxy/xxmessage').then((response) => {    // "/api"  
                                           console.log(" / xxmessage response data = ",response.data)    
                                           //setLegend(response.data);     
                                                                           }
