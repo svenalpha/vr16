@@ -13,7 +13,20 @@ npm run dev
 then, an app.get is added to server.js
 
 
-
+// <button onClick={() => {console.log("inside button click");
+        //                       //axios.get('http://localhost:5173/xxmessage').then((response) => {    // "/api"     
+        //                       axios.get('/apiproxy/xxmessage').then((response) => {    // "/api"  
+        //                                  console.log(" / xxmessage response data = ",response.data)    
+        //                                  //setLegend(response.data);     
+        //</div>                                                                  }
+        //                                )               
+        //                       }
+        // 
+        //
+        //}>
+        //</>  TheClick
+        //</button>
+        //
 
 
 

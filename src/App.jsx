@@ -22,19 +22,9 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <button onClick={() => {console.log("inside button click");
-                               //axios.get('http://localhost:5173/xxmessage').then((response) => {    // "/api"     
-                               axios.get('/apiproxy/xxmessage').then((response) => {    // "/api"  
-                                          console.log(" / xxmessage response data = ",response.data)    
-                                          //setLegend(response.data);     
-                                                                          }
-                                        )               
-                               }
-
-
-        }>
-          TheClick
-        </button>
+        //
+        // button click removed to ReadMeRDM_vr16
+        
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
