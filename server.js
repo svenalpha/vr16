@@ -18,11 +18,11 @@ const ssrManifest = isProduction
 const app = express()
 
 
-app.get("/apiproxy/xxmessage",(req,res) => {
-  console.log("inside server.js, in app.get  apiproxy/xxmessage");
-  res.send(" from     /apiproxy/xxmessage      hello world !!!!");
-                              }
-      );
+//app.get("/apiproxy/xxmessage",(req,res) => {
+//  console.log("inside server.js, in app.get  apiproxy/xxmessage");
+//  res.send(" from     /apiproxy/xxmessage      hello world !!!!");
+//                              }
+//      );
 
 
 
