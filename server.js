@@ -2,6 +2,7 @@ import fs from 'node:fs/promises'
 import express from 'express'
 
 // Constants
+NODE_ENV = "production";
 const isProduction = process.env.NODE_ENV === 'production'
 const port = process.env.PORT || 5173
 const base = process.env.BASE || '/'
