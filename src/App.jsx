@@ -22,8 +22,8 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        //
-        // button click removed to ReadMeRDM_vr16
+        
+       <h4>remark     button click removed to ReadMeRDM_vr16 </h4>
         
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
